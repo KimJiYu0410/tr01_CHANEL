@@ -185,11 +185,6 @@
     text-align: center;
 }
 
-.main_best .inner .itm price {
-    margin-top: 16px;
-    text-align: center;
-}
-
 .main_banner {
     background: url(../images/main_product01.jpg) no-repeat center center/cover;
     background-attachment: fixed;
@@ -229,6 +224,11 @@
 
 .main_product .itm p {
     margin-top: 16px;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.main_best .price {
     text-align: center;
     word-break: keep-all;
 }
@@ -323,9 +323,15 @@
     overflow: hidden;
 }
 
+
 .main_content .tab_content .con.on {
     visibility: visible;
     height: auto;
+}
+
+.main_content .tab_content .price {
+    text-align: center;
+    word-break: keep-all;
 }
 
 .main_content .tab_content .con>* {
@@ -339,6 +345,11 @@
 .main_content .tab_content .con p {
     margin-top: 16px;
     text-align: center;
+}
+
+.main_product_slide .price {
+    text-align: center;
+    word-break: keep-all;
 }
 
 .footer {
